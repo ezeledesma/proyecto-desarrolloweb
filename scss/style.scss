@@ -1,0 +1,17 @@
+// Utilities
+@import "./utilities/variables";
+@import "./utilities/mixins";
+@import "./utilities/maps";
+
+// Layout y base
+@import "./base/reset";
+@import "./layout/header";
+@import "./layout/mainIndex";
+@import "./layout/footer";
+
+// Components
+
+
+// Responsive Web Desing
+@import "./layout/media/media720";
+@import "./layout/media/media468";
