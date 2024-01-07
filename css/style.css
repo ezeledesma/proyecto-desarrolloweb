@@ -24,7 +24,7 @@ body {
 }
 
 .navbar {
-	background-color: rgba(198,123,72,.35);
+	background-color: rgba(198,123,72,1);
 	height: 5rem;
 	font-size: 2rem;
 	font-family: inter;
@@ -113,7 +113,7 @@ body {
 	font-size: 4rem;
 	width: 60%;
 	height: 100%;
-	padding: 40px;
+	padding: 2.5rem;
 }
 
 .contenedor-info-2 div img {
@@ -369,4 +369,224 @@ footer .icon {
 .formulario form button img {
 	width: 100%;
 	height: 100%;
+}
+
+
+/* Breakpoint para "notebooks", Inicio */
+@media (max-width:1220px) {
+
+	.contenedor-info-2 div h2 {
+		font-size: 3.5rem;
+	}
+}
+
+@media (max-width:1024px) {
+
+	.navbar {
+		font-size: 1.5rem;
+	}
+
+	.portada p {
+		font-size: 7rem;
+		text-shadow: black 5px 5px 5px;
+		color: rgba(211,181,158,1);
+	}
+
+	.contenedor-info h1 {
+		font-size: 7rem;
+	}
+	
+	.contenedor-info h2 {
+		font-size: 2.5rem;
+	}
+
+	.contenedor-info-2 {
+		height: 43.75rem;
+	}
+
+	.contenedor-info-2 div {
+		flex-direction: column;
+	}
+
+	.contenedor-info-2 div h2 {
+		font-size: 2.5rem;
+		padding: 2rem;
+		width: 100%;
+		height: 30%;
+	}
+
+	.contenedor-info-2 div img {
+		width: 100%;
+		height: 70%;
+		/* padding-left: 9.375rem;
+		padding-right: 9.375rem; */
+		object-fit: contain;
+	}
+
+	.img1 {
+		grid-area:img1;
+	}
+	.img2 {
+		grid-area:img2;
+	}
+	.img3 {
+		grid-area:img3;
+	}
+
+
+	.contenedor-imgs {
+		display: grid;
+		grid-template-columns: repeat(2,250px);
+		grid-auto-rows: 15.625rem;
+		gap: 10px;
+		grid-template-areas:
+		"img1 img2"
+		"img3 img3"
+		;
+	}
+	
+	.contenedor-imgs .img3 {
+		justify-self: center;
+		align-self: center;
+	}
+}
+
+@media (max-width:833px) {
+
+	.contenedor-info h1 {
+		font-size: 6rem;
+		padding: .5rem;
+	}
+	
+	.contenedor-info h2 {
+		font-size: 2rem;
+		margin: 1rem;
+		width: 90%;
+	}
+
+	.contenedor-info-2 div h2 {
+		font-size: 2rem;
+	}
+
+	footer {
+		font-size: 1rem;
+	}
+
+	footer .redes {
+		gap: 10px;
+	}
+}
+
+@media (max-width:700px) {
+
+	.navbar {
+		height: 10rem;
+	}
+
+	.navbar ul {
+		flex-direction: column;
+	}
+
+	.portada {
+		display: none;
+	}
+
+	.contenedor-info {
+		margin-top: 10rem;
+	}
+
+	.contenedor-info h1 {
+		display: none;
+	}
+
+	.contenedor-info h2 {
+		font-size: 1.5rem;
+	}
+
+	.contenedor-info img {
+		height: 12rem;
+		object-fit: none;
+		overflow: hidden;
+	}
+
+	.contenedor-imgs {
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
+	}
+
+	.contenedor-imgs img {
+		justify-self: center;
+		align-self: center;
+		width: 13rem;
+		height: 13rem;
+	}
+
+	footer {
+		font-size: 0.75rem;
+	}
+
+	footer .redes {
+		flex-direction: column;
+	}
+
+	footer .icon {
+		width: 1.5rem;
+		height: 1.5rem;
+	}
+}
+
+@media (max-width:555px) {
+
+	.contenedor-info h1 {
+		font-size: 5rem;
+	}
+	
+	.contenedor-info h2 {
+		font-size: 1.5rem;
+		margin: 0.5rem;
+	}
+
+	.contenedor-info-2 div h2 {
+		padding: 1.5rem;
+	}
+}
+
+@media (max-width:490px) {
+
+	.contenedor-info-2 {
+		height: 100%;
+	}
+
+	.contenedor-info-2 div img {
+		object-fit: scale-down;
+	}
+
+}
+
+@media (max-width:475px) {
+
+	.contenedor-info-2 div h2 {
+		padding: 1rem;
+	}
+}
+
+@media (max-width:375px) {
+
+	.navbar {
+		font-size: 1rem;
+	}
+
+	.contenedor-info h2 {
+		font-size: 1rem;
+	}
+
+	.contenedor-info-2 div h2 {
+		font-size: 1.25rem;
+	}
+
+	.contenedor-imgs img {
+		width: 10rem;
+		height: 10rem;
+	}
 }
