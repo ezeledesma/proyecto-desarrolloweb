@@ -1,0 +1,19 @@
+@media (max-width:490px) {
+
+	.contenedor-info-2 {
+		height: 100%;
+		div {
+			img {
+				object-fit: scale-down;
+			}
+		}
+	}
+
+	/* Mates */
+	.card {
+		.card-desc {
+			margin-top: 0.5rem;
+			margin-left: 0.5rem;
+		}
+	}
+}

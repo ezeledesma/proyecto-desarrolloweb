@@ -1,0 +1,27 @@
+@media (max-width:375px) {
+
+	.navbar {
+		font-size: 1rem;
+	}
+
+	.contenedor-info {
+		h2 {
+			font-size: 1rem;
+		}
+	}
+
+	.contenedor-info-2 {
+		div {
+			h2 {
+				font-size: 1.25rem;
+			}
+		}
+	}
+
+	.contenedor-imgs {
+		img {
+			width: 10rem;
+			height: 10rem;
+		}
+	}
+}

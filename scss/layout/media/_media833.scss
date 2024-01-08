@@ -1,0 +1,51 @@
+@media (max-width:833px) {
+
+	.contenedor-info {
+		h1 {
+			font-size: 6rem;
+			padding: .5rem;
+		}
+		h2 {
+			font-size: 2rem;
+			margin: 1rem;
+			width: 90%;
+		}
+	}
+	
+	.contenedor-info-2 {
+		div {
+			h2 {
+				font-size: 2rem;
+			}
+		}
+	} 
+
+	footer {
+		font-size: 1rem;
+		.redes {
+			gap: 10px;
+		}
+	}
+
+	/* Mates */
+
+	.contenedor-mates {
+		height: 100%;
+		h2 {
+			font-size: 5.5rem;
+		}
+		img {
+			object-fit:scale-down;
+		}
+	}
+
+	.card {
+		height: 12rem;
+		img {
+			width: 12rem;
+		}
+		.card-desc {
+			font-size: 1.25rem;
+		}
+	}
+}
