@@ -1,0 +1,22 @@
+footer {
+	background-color:$Paleta3_2;
+	height: 6.5rem;
+	display: flex;
+	justify-content:space-around;
+	align-items: center;
+	font-size: 1.25rem;
+	font-family: 'Inter';
+	.redes {
+		display: flex;
+		gap: 30px;
+		div {
+			display: flex;
+			align-items: center;
+			gap:10px;
+		}
+	}
+	.icon {
+		width: 2.5rem;
+		height: 2.5rem;
+	}
+}

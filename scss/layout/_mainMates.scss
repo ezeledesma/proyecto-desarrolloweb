@@ -1,0 +1,27 @@
+.contenedor-mates {
+	margin-top: 5rem;
+	background-color: $Paleta5;
+	height: 20.375rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	h2 {
+		width: 60%;
+		height: 50%;
+		font-size: 8rem;
+		font-family: 'Island Moments';
+		text-align: center;
+	}
+	img {
+		width: 40%;
+		height: 100%;
+	}
+}
+
+.cards {
+	height: 71.875rem;
+	display: flex;
+	flex-direction: column;
+	padding: 5rem;
+	gap: 2.5rem;
+}

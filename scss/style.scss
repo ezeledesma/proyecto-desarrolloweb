@@ -3,14 +3,21 @@
 @import "./utilities/mixins";
 @import "./utilities/maps";
 
-// Layout y base
+// Base
 @import "./base/reset";
+@import "./base/typografias";
+
+// Layout
 @import "./layout/header";
 @import "./layout/mainIndex";
+@import "./layout/mainMates";
+@import "./layout/mainTablas";
+@import "./layout/mainHistoria";
+@import "./layout/mainContacto";
 @import "./layout/footer";
 
 // Components
-
+@import "./components/cards";
 
 // Responsive Web Desing
 @import "./layout/media/media720";

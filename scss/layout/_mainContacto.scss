@@ -1,0 +1,53 @@
+/* Contacto */
+.formulario {
+	margin-top: 5rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 6.25rem 6.25rem;
+	h2 {
+		font-family: 'Island Moments';
+		font-size: 6rem;
+		text-align: center;	
+	}
+	form {
+		margin-top: 2.5rem;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		gap: 2.5rem;
+		input {
+			border-radius: 5px;
+			background-color: rgba(171,156,137,0.6);
+			border:none;
+			height: 4.0625rem;
+			width: 33.75rem;
+			font-size: 2.25rem;
+			font-family: 'David Libre';
+			padding: 20px;
+		}
+		.consulta {
+			padding-right: 5rem !important;
+		}
+		button {
+			width: 3.125rem;
+			height: 3.125rem;
+			background: none;
+			color: inherit;
+			border: none;
+			padding: 0;
+			font: inherit;
+			cursor: pointer;
+			outline: inherit;
+			position: relative;
+			bottom: 6rem;
+			left: 14rem;
+			img {
+				width: 100%;
+				height: 100%;
+			}
+		}
+	}
+}
