@@ -25,7 +25,9 @@
     * Animation
     * Keyframes
 * SEO
-* Opengraph
+    * Title
+    * Meta
+    * Opengraph
   
 > [!NOTE]
 > Sitio aun en desarrollo
