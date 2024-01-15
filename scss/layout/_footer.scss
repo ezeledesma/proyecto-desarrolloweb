@@ -1,18 +1,15 @@
 footer {
 	background-color:$Paleta3_2;
 	height: 6.5rem;
-	display: flex;
-	justify-content:space-around;
-	align-items: center;
+	@include flex(row,space-around,center);
 	font-size: 1.25rem;
 	font-family: 'Inter';
 	.redes {
-		display: flex;
+		@include flex(row,center,start);
 		gap: 30px;
 		div {
-			display: flex;
-			align-items: center;
-			gap:10px;
+			@include flex(row,center,center);
+			gap: 10px;
 		}
 	}
 	.icon {

@@ -2,6 +2,7 @@
 
 	.navbar {
 		font-size: 1rem;
+		font-size: map-get($font-size, s);
 	}
 
 	.contenedor-info {

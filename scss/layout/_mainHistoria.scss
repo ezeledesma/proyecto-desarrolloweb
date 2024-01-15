@@ -1,10 +1,7 @@
 /* Historia */
 .contenedor-info-historia {
 	padding: 10rem 5rem;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+	@include flex(column,center,center);
 	gap: 3.75rem;
 	p {
 		font-family: 'David Libre';

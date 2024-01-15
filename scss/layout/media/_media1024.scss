@@ -1,7 +1,7 @@
 @media (max-width:1024px) {
 
 	.navbar {
-		font-size: 1.5rem;
+		font-size: map-get($font-size, md);
 	}
 
 	.portada {
@@ -53,14 +53,7 @@
 
 
 	.contenedor-imgs {
-		display: grid;
-		grid-template-columns: repeat(2,250px);
-		grid-auto-rows: 15.625rem;
-		gap: 10px;
-		grid-template-areas:
-		"img1 img2"
-		"img3 img3"
-		;
+		@include grid(repeat(2,250px),15.625rem,center,center,"img1 img2""img3 img3",10px);
 		.img3 {
 			justify-self: center;
 			align-self: center;
@@ -68,7 +61,6 @@
 	}
 	
 	/* Mates */
-	
 	.contenedor-mates {
 		flex-direction: column;
 		height: 42rem;

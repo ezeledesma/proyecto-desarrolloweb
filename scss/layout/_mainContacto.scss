@@ -1,10 +1,7 @@
 /* Contacto */
 .formulario {
 	margin-top: 5rem;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+	@include flex(column,center,center);
 	padding: 6.25rem 6.25rem;
 	h2 {
 		font-family: 'Island Moments';
@@ -13,10 +10,7 @@
 	}
 	form {
 		margin-top: 2.5rem;
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
+		@include flex(column,center,center);
 		gap: 2.5rem;
 		input {
 			border-radius: 5px;
