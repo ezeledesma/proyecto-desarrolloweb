@@ -1,3 +1,43 @@
 b {
 	color:$Paleta3;
 }
+
+b {
+	animation-name: titulo;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+	animation-duration: 4s;
+	animation-delay: 1s;
+}
+
+@keyframes titulo {
+	0% {
+		// box-shadow: 0px 0px 10px 5px $Paleta3_2;
+		color: $Paleta3;
+	}
+
+	25% {
+		// box-shadow: 0px 0px 10px 5px $Paleta4;
+		color: $Paleta4;
+	}
+
+	45% {
+		// box-shadow: 0px 0px 10px 5px $Paleta5;
+		color: $Paleta5;
+	}
+
+	// 70% {
+	// 	// box-shadow: 0px 0px 10px 5px $Paleta1;
+	// 	color: $Paleta1;
+	// }
+
+	85% {
+		// box-shadow: 0px 0px 10px 5px $Paleta1;
+		color: $Paleta2;
+	}
+
+	100% {
+		// box-shadow: 0px 0px 10px 5px $Paleta2;
+		color: $Paleta3;
+	}
+}
