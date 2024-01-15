@@ -12,32 +12,22 @@ b {
 
 @keyframes titulo {
 	0% {
-		// box-shadow: 0px 0px 10px 5px $Paleta3_2;
 		color: $Paleta3;
 	}
 
 	25% {
-		// box-shadow: 0px 0px 10px 5px $Paleta4;
 		color: $Paleta4;
 	}
 
 	45% {
-		// box-shadow: 0px 0px 10px 5px $Paleta5;
 		color: $Paleta5;
 	}
 
-	// 70% {
-	// 	// box-shadow: 0px 0px 10px 5px $Paleta1;
-	// 	color: $Paleta1;
-	// }
-
 	85% {
-		// box-shadow: 0px 0px 10px 5px $Paleta1;
 		color: $Paleta2;
 	}
 
 	100% {
-		// box-shadow: 0px 0px 10px 5px $Paleta2;
 		color: $Paleta3;
 	}
 }
