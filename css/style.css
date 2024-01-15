@@ -290,7 +290,16 @@ footer {
 /* Breakpoint para "notebooks", Inicio */
 @media (max-width: 1221px) {
   .contenedor-info-2 div h2 {
-    font-size: 3.5rem; } }
+    font-size: 3.5rem; }
+  /* Tablas */
+  .tablas-info {
+    height: 30rem; }
+    .tablas-info div p {
+      font-size: 3.5rem;
+      padding: 7rem; }
+  .galeria img {
+    width: 18.75rem;
+    height: 18.75rem; } }
 
 @media (max-width: 1024px) {
   .navbar {
@@ -349,7 +358,43 @@ footer {
     .card img {
       width: 15rem; }
     .card .card-desc {
-      font-size: 1.75rem; } }
+      font-size: 1.75rem; }
+  /* Tablas */
+  .contenedor-titulo-tablas {
+    height: 15.625rem; }
+    .contenedor-titulo-tablas h2 {
+      font-size: 7rem; }
+  .tablas-info {
+    height: 28rem; }
+    .tablas-info div p {
+      font-size: 3rem;
+      padding: 5rem; }
+  .galeria img {
+    width: 14rem;
+    height: 14rem; }
+  /* Historia */
+  .contenedor-info-historia img {
+    width: 16.25rem;
+    height: 20.3125rem; }
+  .contenedor-info-historia p {
+    font-size: 2rem; }
+  /* Contacto */
+  .formulario {
+    padding: 5rem 5rem; }
+    .formulario h2 {
+      font-size: 4.5rem; }
+    .formulario form {
+      gap: 2rem; }
+      .formulario form input {
+        height: 3.25rem;
+        width: 27rem;
+        font-size: 2rem;
+        padding: 1rem; }
+      .formulario form button {
+        width: 2.5rem;
+        height: 2.5rem;
+        bottom: 4.9rem;
+        left: 10.9rem; } }
 
 @media (max-width: 833px) {
   .contenedor-info h1 {
@@ -377,7 +422,19 @@ footer {
     .card img {
       width: 12rem; }
     .card .card-desc {
-      font-size: 1.25rem; } }
+      font-size: 1.25rem; }
+  /* Tablas */
+  .contenedor-titulo-tablas {
+    height: 13rem; }
+    .contenedor-titulo-tablas h2 {
+      font-size: 6rem; }
+  .tablas-info {
+    height: 24rem; }
+    .tablas-info div p {
+      font-size: 2.6rem;
+      padding: 3rem; }
+  .galeria img:nth-child(3) {
+    display: none; } }
 
 @media (max-width: 700px) {
   .navbar {
@@ -430,7 +487,45 @@ footer {
       justify-self: center; }
     .card .card-desc {
       margin-top: 0rem;
-      margin-left: 0rem; } }
+      margin-left: 0rem; }
+  /* Tablas */
+  .contenedor-titulo-tablas {
+    display: none; }
+  .tablas-info {
+    margin-top: 10rem;
+    height: 43.75rem; }
+    .tablas-info div {
+      flex-direction: column; }
+      .tablas-info div img {
+        width: 100%;
+        height: 80%; }
+      .tablas-info div p {
+        width: 100%;
+        height: 20%;
+        font-size: 1.9rem;
+        padding: 1.5rem; }
+  .galeria img:nth-child(2) {
+    display: none; }
+  /* Historia */
+  .contenedor-info-historia {
+    margin-top: 10rem;
+    padding: 5rem 2.5rem;
+    gap: 3rem; }
+    .contenedor-info-historia img {
+      width: 13rem;
+      height: 16.25rem; }
+    .contenedor-info-historia p {
+      font-size: 1.5rem; }
+  /* Contacto */
+  .formulario {
+    margin-top: 10rem;
+    padding: 4rem 4rem; }
+    .formulario h2 {
+      font-size: 4rem; }
+    .formulario form {
+      gap: 1.7rem; }
+      .formulario form button {
+        bottom: 4.5rem; } }
 
 @media (max-width: 555px) {
   .contenedor-info h1 {
@@ -449,7 +544,40 @@ footer {
   .card .card-desc {
     margin-top: 2rem;
     margin-left: 2rem;
-    font-size: 1rem; } }
+    font-size: 1rem; }
+  /* Tablas */
+  .tablas-info {
+    height: auto; }
+    .tablas-info div img {
+      object-fit: scale-down; }
+    .tablas-info div p {
+      font-size: 1.5rem;
+      padding: 1.3rem; }
+  .galeria {
+    padding: 3rem 3rem; }
+    .galeria img {
+      width: 12rem;
+      height: 12rem; }
+  /* Historia */
+  .contenedor-info-historia p {
+    font-size: 1.3rem; }
+  /* Contacto */
+  .formulario {
+    padding: 3rem 3rem; }
+    .formulario h2 {
+      font-size: 3.2rem; }
+    .formulario form {
+      gap: 1.4rem; }
+      .formulario form input {
+        height: 2.625rem;
+        width: 21.625rem;
+        font-size: 1.5rem;
+        padding: 0.7rem; }
+      .formulario form button {
+        width: 2rem;
+        height: 2rem;
+        bottom: 3.7rem;
+        left: 9rem; } }
 
 @media (max-width: 490px) {
   .contenedor-info-2 {
@@ -466,7 +594,31 @@ footer {
     padding: 1rem; }
   /* Mates */
   .cards {
-    padding: 3rem; } }
+    padding: 3rem; }
+  /* Tablas */
+  .tablas-info div p {
+    font-size: 1.3rem;
+    padding: 1.1rem; }
+  .galeria img {
+    width: 10rem;
+    height: 10rem; }
+  /* Contacto */
+  .formulario {
+    padding: 2.5rem 2.5rem; }
+    .formulario h2 {
+      font-size: 2.7rem; }
+    .formulario form {
+      gap: 1.1rem; }
+      .formulario form input {
+        height: 2rem;
+        width: 17.25rem;
+        font-size: 1.2rem;
+        padding: 0.5rem; }
+      .formulario form button {
+        width: 1.5rem;
+        height: 1.5rem;
+        bottom: 2.8rem;
+        left: 7rem; } }
 
 @media (max-width: 375px) {
   .navbar {
@@ -477,4 +629,31 @@ footer {
     font-size: 1.25rem; }
   .contenedor-imgs img {
     width: 10rem;
-    height: 10rem; } }
+    height: 10rem; }
+  /* Historia */
+  .contenedor-info-historia {
+    padding: 2.5rem 1rem;
+    gap: 1.7rem; }
+    .contenedor-info-historia img {
+      width: 10.375rem;
+      height: 13rem; }
+    .contenedor-info-historia p {
+      font-size: 1rem; }
+  /* Contacto */
+  .formulario {
+    padding: 1rem 1rem; }
+    .formulario h2 {
+      font-size: 2rem; }
+    .formulario form {
+      margin-top: 1.5rem;
+      gap: 0.5rem; }
+      .formulario form input {
+        height: 1.6rem;
+        width: 15rem;
+        font-size: 0.6rem;
+        padding: 0.3rem; }
+      .formulario form button {
+        width: 1rem;
+        height: 1rem;
+        bottom: 1.8rem;
+        left: 6.3rem; } }

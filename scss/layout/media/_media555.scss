@@ -35,7 +35,57 @@
 			margin-left: 2rem;
 			font-size: 1rem;
 		}
-	} 
+	}
 
+	/* Tablas */
+	.tablas-info {
+		height: auto;
+		div {
+			img {
+				object-fit: scale-down;
+			}
+			p {
+				font-size: 1.5rem;
+				padding: 1.3rem;
+			}
+		}
+	}
 
+	.galeria {
+		padding: 3rem 3rem;
+		img {
+			width: 12rem;
+			height: 12rem;
+		}
+	}
+
+	/* Historia */
+	.contenedor-info-historia {
+		p {
+			font-size: 1.3rem;
+		}
+	}
+
+	/* Contacto */
+	.formulario {
+		padding: 3rem 3rem;
+		h2 {
+			font-size: 3.2rem;
+		}
+		form {
+			gap: 1.4rem;
+			input {
+				height: 2.625rem;
+				width: 21.625rem;
+				font-size: 1.5rem;
+				padding: 0.7rem;
+			}
+			button {
+				width: 2rem;
+				height: 2rem;
+				bottom: 3.7rem;
+				left: 9rem;
+			}
+		}
+	}
 }

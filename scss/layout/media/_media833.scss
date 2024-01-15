@@ -48,4 +48,28 @@
 			font-size: 1.25rem;
 		}
 	}
+
+	/* Tablas */
+	.contenedor-titulo-tablas {
+		height: 13rem;
+		h2 {
+			font-size: 6rem;
+		}
+	}
+
+	.tablas-info {
+		height: 24rem;
+		div {
+			p {
+				font-size: 2.6rem;
+				padding: 3rem;
+			}
+		}
+	}
+
+	.galeria {
+		img:nth-child(3) {
+			display: none;
+		}
+	}
 }

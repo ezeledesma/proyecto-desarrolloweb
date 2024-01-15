@@ -12,4 +12,44 @@
 	.cards {
 		padding: 3rem;
 	}
+
+	/* Tablas */
+	.tablas-info {
+		div {
+			p {
+				font-size: 1.3rem;
+				padding: 1.1rem;
+			}
+		}
+	}
+
+	.galeria {
+		img {
+			width: 10rem;
+			height: 10rem;
+		}
+	}
+
+	/* Contacto */
+	.formulario {
+		padding: 2.5rem 2.5rem;
+		h2 {
+			font-size: 2.7rem;
+		}
+		form {
+			gap: 1.1rem;
+			input {
+				height: 2rem;
+				width: 17.25rem;
+				font-size: 1.2rem;
+				padding: 0.5rem;
+			}
+			button {
+				width: 1.5rem;
+				height: 1.5rem;
+				bottom: 2.8rem;
+				left: 7rem;
+			}
+		}
+	}
 }

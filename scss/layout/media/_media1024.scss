@@ -94,4 +94,63 @@
 			font-size: 1.75rem;
 		}
 	}
+
+	/* Tablas */
+	.contenedor-titulo-tablas {
+		height: 15.625rem;
+		h2 {
+			font-size: 7rem;
+		}
+	}
+	
+	.tablas-info {
+		height: 28rem;
+		div {
+			p {
+				font-size: 3rem;
+				padding: 5rem;
+			}
+		}
+	}
+
+	.galeria {
+		img {
+			width: 14rem;
+			height: 14rem;
+		}
+	}
+
+	/* Historia */
+	.contenedor-info-historia {
+		img {
+			width: 16.25rem;
+			height: 20.3125rem;
+		}
+		p {
+			font-size: 2rem;
+		}
+	}
+
+	/* Contacto */
+	.formulario {
+		padding: 5rem 5rem;
+		h2 {
+			font-size: 4.5rem;
+		}
+		form {
+			gap: 2rem;
+			input {
+				height: 3.25rem;
+				width: 27rem;
+				font-size: 2rem;
+				padding: 1rem;
+			}
+			button {
+				width: 2.5rem;
+				height: 2.5rem;
+				bottom: 4.9rem;
+				left: 10.9rem;
+			}
+		}
+	}
 }
