@@ -7,6 +7,7 @@
 * Box-modeling
 * Flexbox
 * GRIDS
+* Responsive Design
 * Pseudoclases
 * Git/GitHub
 * SASS
