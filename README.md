@@ -1,6 +1,3 @@
-> [!NOTE]
-> Sitio aun en desarrollo
-
 # Curso Desarrollo Web - CoderHouse: Proyecto final
 
 ## Temas aplicados
@@ -16,3 +13,6 @@
 * Animaciones
 * SEO y opengraph
   
+> [!NOTE]
+> Sitio aun en desarrollo
+
