@@ -42,12 +42,8 @@ b {
 @keyframes titulo {
   0% {
     color: #c67b48; }
-  25% {
-    color: #ab9c89; }
-  45% {
-    color: #cbd9b7; }
-  85% {
-    color: #d3b59e; }
+  50% {
+    color: black; }
   100% {
     color: #c67b48; } }
 
@@ -451,7 +447,8 @@ footer {
     font-size: 2rem; }
   /* Contacto */
   .formulario {
-    padding: 5rem 5rem; }
+    padding: 5rem 5rem;
+    margin-bottom: 2.5rem; }
     .formulario h2 {
       font-size: 4.5rem; }
     .formulario form {
@@ -581,7 +578,8 @@ footer {
   .contenedor-info-historia {
     margin-top: 10rem;
     padding: 5rem 2.5rem;
-    gap: 3rem; }
+    gap: 3rem;
+    height: 70vh; }
     .contenedor-info-historia img {
       width: 13rem;
       height: 16.25rem; }
@@ -634,7 +632,8 @@ footer {
     font-size: 1.3rem; }
   /* Contacto */
   .formulario {
-    padding: 3rem 3rem; }
+    padding: 3rem 3rem;
+    height: 65vh; }
     .formulario h2 {
       font-size: 3.2rem; }
     .formulario form {
