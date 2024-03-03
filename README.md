@@ -30,5 +30,5 @@
     * Opengraph
   
 > [!NOTE]
-> Sitio aun en desarrollo
+> El sitio fue aprobado, cumpliendo todos los requisitos del curso
 
